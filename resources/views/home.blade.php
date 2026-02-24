@@ -30,7 +30,8 @@
             <h1 class="restaurant-font">Gourmet Haven</h1>
             <div class="divider"></div>
             <p>Experience Fine Dining at Its Finest</p>
-            <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <div
+                style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1;">
                 <a href="{{ route('register') }}"
                     style="display: inline-block; padding: 0.85rem 2.25rem; background: linear-gradient(135deg, #c9a961, #b8964f); color: #fff; text-decoration: none; border-radius: 2rem; font-weight: 600; font-size: 0.95rem; letter-spacing: 1px; text-transform: uppercase; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(201,169,97,0.35);"
                     onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 25px rgba(201,169,97,0.5)'"
